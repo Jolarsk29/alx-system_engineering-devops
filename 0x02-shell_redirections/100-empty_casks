@@ -1,2 +1,2 @@
 #!/bin/bash
-find ~/lists -empty -exec ls -Fd {} \;
+find /tmp -type f -empty -delete
