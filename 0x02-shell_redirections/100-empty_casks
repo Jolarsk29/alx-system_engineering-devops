@@ -1,2 +1,2 @@
 #!/bin/bash
-find /tmp -type f -empty 
+find /path/ -empty -type f | wc -l
